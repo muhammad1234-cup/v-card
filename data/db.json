@@ -1,0 +1,221 @@
+{
+  "users": [
+    {
+      "id": "usr-admin",
+      "email": "admin@company.com",
+      "passwordHash": "admin123",
+      "name": "System Administrator",
+      "role": "ADMIN"
+    },
+    {
+      "id": "usr-sarah",
+      "email": "sarah@company.com",
+      "passwordHash": "employee123",
+      "name": "Sarah Chen",
+      "role": "EMPLOYEE",
+      "employeeId": "emp-sarah"
+    },
+    {
+      "id": "usr-alex",
+      "email": "alex@company.com",
+      "passwordHash": "employee123",
+      "name": "Alex Rivera",
+      "role": "EMPLOYEE",
+      "employeeId": "emp-alex"
+    },
+    {
+      "id": "usr-marcus",
+      "email": "marcus@company.com",
+      "passwordHash": "employee123",
+      "name": "Marcus Vance",
+      "role": "EMPLOYEE",
+      "employeeId": "emp-marcus"
+    },
+    {
+      "id": "usr-elena",
+      "email": "elena@company.com",
+      "passwordHash": "employee123",
+      "name": "Elena Rostova",
+      "role": "EMPLOYEE",
+      "employeeId": "emp-elena"
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp-sarah",
+      "userId": "usr-sarah",
+      "slug": "sarah-chen",
+      "name": "Sarah Chen",
+      "email": "sarah@company.com",
+      "title": "Lead Solutions Architect",
+      "department": "Engineering & Cloud",
+      "bio": "Enterprise cloud architect specializing in distributed AI systems, multi-region high availability, and secure edge infrastructure.",
+      "phone": "+1 (555) 349-8120",
+      "location": "San Francisco, CA",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+      "themeColor": "#2563eb",
+      "status": "ACTIVE",
+      "role": "EMPLOYEE",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/sarahchen-cloud",
+        "twitter": "https://twitter.com/sarahchen_tech",
+        "github": "https://github.com/sarahchen-dev",
+        "website": "https://sarahchen.dev",
+        "whatsapp": "+15553498120",
+        "calendly": "https://calendly.com/sarahchen-apex"
+      },
+      "scanCount": 142,
+      "vcardDownloadCount": 90,
+      "lastScannedAt": "2026-10-02T10:53:23.311Z",
+      "nfcConfig": {
+        "tagId": "NTAG215-SF01",
+        "encodedAt": "2026-09-27T11:08:23.311Z",
+        "writeStatus": "written"
+      },
+      "createdAt": "2026-09-02T11:08:23.312Z",
+      "updatedAt": "2026-10-02T11:08:23.312Z"
+    },
+    {
+      "id": "emp-alex",
+      "userId": "usr-alex",
+      "slug": "alex-rivera",
+      "name": "Alex Rivera",
+      "email": "alex@company.com",
+      "title": "VP of Product Strategy",
+      "department": "Product Leadership",
+      "bio": "Scaling frontier enterprise SaaS platforms from zero to global market leadership. Passionate about human-centric interfaces.",
+      "phone": "+1 (555) 782-9011",
+      "location": "New York, NY",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&auto=format&fit=crop&q=80",
+      "themeColor": "#4f46e5",
+      "status": "ACTIVE",
+      "role": "EMPLOYEE",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/alexrivera-product",
+        "twitter": "https://twitter.com/alexrivera",
+        "website": "https://alexrivera.io",
+        "calendly": "https://calendly.com/alexrivera-product"
+      },
+      "scanCount": 98,
+      "vcardDownloadCount": 64,
+      "lastScannedAt": "2026-10-02T10:26:23.312Z",
+      "nfcConfig": {
+        "tagId": "NTAG215-NY04",
+        "encodedAt": "2026-09-20T11:08:23.312Z",
+        "writeStatus": "written"
+      },
+      "createdAt": "2026-08-03T11:08:23.312Z",
+      "updatedAt": "2026-10-02T11:08:23.312Z"
+    },
+    {
+      "id": "emp-marcus",
+      "userId": "usr-marcus",
+      "slug": "marcus-vance",
+      "name": "Marcus Vance",
+      "email": "marcus@company.com",
+      "title": "Head of Design & UX",
+      "department": "Design & Brand",
+      "bio": "Crafting memorable, intuitive user experiences and design systems for enterprise software and physical computing.",
+      "phone": "+1 (555) 412-6789",
+      "location": "Austin, TX",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+      "themeColor": "#059669",
+      "status": "ACTIVE",
+      "role": "EMPLOYEE",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/marcusvance-ux",
+        "github": "https://github.com/marcusvance",
+        "website": "https://marcusvance.design"
+      },
+      "scanCount": 76,
+      "vcardDownloadCount": 45,
+      "lastScannedAt": "2026-10-02T09:08:23.312Z",
+      "nfcConfig": {
+        "writeStatus": "written"
+      },
+      "createdAt": "2026-09-12T11:08:23.312Z",
+      "updatedAt": "2026-10-02T11:08:23.312Z"
+    },
+    {
+      "id": "emp-elena",
+      "userId": "usr-elena",
+      "slug": "elena-rostova",
+      "name": "Elena Rostova",
+      "email": "elena@company.com",
+      "title": "Director of Strategic Partnerships",
+      "department": "Business Development",
+      "bio": "Connecting global tech ecosystems, strategic capital, and alliance networks for enterprise digital transformations.",
+      "phone": "+1 (555) 670-3321",
+      "location": "San Francisco, CA",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
+      "themeColor": "#d97706",
+      "status": "ACTIVE",
+      "role": "EMPLOYEE",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/elena-rostova",
+        "twitter": "https://twitter.com/elena_rostova",
+        "whatsapp": "+15556703321"
+      },
+      "scanCount": 114,
+      "vcardDownloadCount": 82,
+      "lastScannedAt": "2026-10-02T11:00:23.312Z",
+      "createdAt": "2026-08-18T11:08:23.312Z",
+      "updatedAt": "2026-10-02T11:08:23.312Z"
+    }
+  ],
+  "company": {
+    "id": "company-default",
+    "name": "Apex Technologies",
+    "tagline": "Next-Generation Enterprise AI & Cloud Systems",
+    "logo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=200&auto=format&fit=crop&q=80",
+    "brandColor": "#2563eb",
+    "secondaryColor": "#4f46e5",
+    "website": "https://apextechnologies.io",
+    "email": "contact@apextechnologies.io",
+    "phone": "+1 (555) 942-8820",
+    "address": "100 Innovation Way, Suite 400, San Francisco, CA 94107",
+    "cardTheme": "modern"
+  },
+  "scans": [
+    {
+      "id": "scn-muqv0zhs",
+      "employeeId": "emp-sarah",
+      "employeeName": "Sarah Chen",
+      "title": "Lead Solutions Architect",
+      "department": "Engineering & Cloud",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+      "action": "vcard",
+      "timestamp": "Just now"
+    },
+    {
+      "id": "scn-1",
+      "employeeId": "emp-sarah",
+      "employeeName": "Sarah Chen",
+      "title": "Lead Solutions Architect",
+      "department": "Engineering & Cloud",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+      "action": "scan",
+      "timestamp": "15 mins ago"
+    },
+    {
+      "id": "scn-2",
+      "employeeId": "emp-alex",
+      "employeeName": "Alex Rivera",
+      "title": "VP of Product Strategy",
+      "department": "Product Leadership",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&auto=format&fit=crop&q=80",
+      "action": "vcard",
+      "timestamp": "42 mins ago"
+    },
+    {
+      "id": "scn-3",
+      "employeeId": "emp-elena",
+      "employeeName": "Elena Rostova",
+      "title": "Director of Strategic Partnerships",
+      "department": "Business Development",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
+      "action": "scan",
+      "timestamp": "2 hours ago"
+    }
+  ]
+}

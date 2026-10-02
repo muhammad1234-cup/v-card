@@ -1,0 +1,6 @@
+{
+  "name": "TapCard - NFC & Digital Business Cards",
+  "description": "Enterprise digital business card & NFC management system with interactive card profiles, QR generator, vCard export, and employee administration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
